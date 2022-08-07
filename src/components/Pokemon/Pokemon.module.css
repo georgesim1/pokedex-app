@@ -1,0 +1,182 @@
+/* This CSS is for inside of the Individual Pokemon Cards */
+.pokemonPageContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    gap: 20px;
+    padding-top: 50px;
+}
+
+.pokemonPageContainer h2{
+  font-size: 24px;
+  text-transform: uppercase;
+}
+
+
+.pokePopupContainer{  /* Pop up modal window to remove the pokemons */
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(0, 0, 0, 0.8);
+    z-index: 5;
+    top: 0;
+    left: 0;
+}
+
+
+.close{
+    display: none;
+}
+
+.pokePopup{ /* Pop up modal window to remove the pokemons */
+    border: 5px solid #8E0E00;
+    border-radius: 2px;
+    background-color: rgb(255, 255, 255, 0.8);
+    padding: 20px;
+    color: #000;
+    font-size: 16px;
+}
+
+.buttonContainer{ /* alter the position of the pop up buttons */
+    margin-top: 10px;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+
+.yesButton{
+    background-color: rgb(47, 154, 75);
+    color: white;
+}
+.yesButton:hover{ /* Yes button hover effect */
+    border-color: #4D7C44;
+    background-color: #4D7C44;
+    color: white;
+}
+
+.noButton{
+    background-color: rgb(214, 40, 40);
+    color: white;
+}
+
+.noButton:hover{ /* No button hover effect */
+    border-color: #900C3F;
+    background-color: #8E0E00;
+    color: #f2f2f2;
+}
+
+.imgContainer{
+    position: relative;
+}
+
+.FavButtonOn{  /* alter to change the size of the favorite button */
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    z-index: 2;
+    top: -10px;
+    right: -10px;
+    cursor: pointer;
+}
+
+
+.dispFlex{
+    display: flex;
+}
+
+.pokemonTypesContainer{
+    gap: 10px;
+}
+
+.pokemonStats{ /* alter to change the size of the  pokemon stats */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    width: 30%;
+    font-weight: 700;
+
+}
+
+.pokeDescriptionContainer{ /* alter to change the size of the descriptions */
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    font-size: 20px;
+}
+
+.pokeDescriptionContainer h3{
+    padding: 0px 0px 10px 0px;
+}
+
+.pokeDescription{
+    text-align: center;
+}
+
+.listContainer{
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.listContainer ul{
+    list-style: none;
+    font-weight: 700;
+}
+
+.additionalStatsContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+}
+
+.additionalStatsListContainer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.additionalStatsList{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 45%;
+}
+
+.additionalStatsListContainer ul{
+    list-style: none;
+}
+
+@media screen and (max-width: 475px) {
+    .pokemonStats{
+        width: 60%;
+    }
+
+    .additionalStatsListContainer{
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .additionalStatsContainer{
+        width: 90%;
+    }
+
+    .additionalStatsList{
+        width: 100%;
+    }
+
+    .additionalStatsList ul{
+        width: 100%;
+    }
+}
