@@ -1,6 +1,6 @@
-# Getting Started
+# Démarrage du projet
 
-- Clone this repo
+- Clonez ce
 
   ```
   git clone https://github.com/matheusmhq/pokedex-react-js.git
