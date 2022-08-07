@@ -8,15 +8,14 @@
   cd pokedex-app
   ```
 
-- Install all dependencies
+- Installer tous les dependencies
 
   ```
    npm install
 
   ```
 
-- Now run **npm run dev**
+- Exécutez maintenant **npm run dev**
 
-- Open your browser at `http://localhost:3000`
 
 
