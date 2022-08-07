@@ -6,7 +6,7 @@ function Header() {
   return (
     <header>
       <Link to="/">
-        <h1>Pokédex-app SIMAK</h1>
+        <h1>Pokédex-App SIMAK.G</h1>
         </Link>
         <nav>
           <ul>

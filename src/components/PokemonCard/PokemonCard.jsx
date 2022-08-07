@@ -38,7 +38,7 @@ function PokemonCard(props) {
     </div>
     <Link to={`/pokemon/${props.id}`}>
     <div className={styles.pokemonCard}>
-        <img className={styles.FavButtonOn} src={saved ? FavButtonO : FavButtonOff} onClick={(e) => {
+        <img className={styles.FavButtonOn} src={saved ? FavButtonOn : FavButtonOff} onClick={(e) => {
           e.preventDefault();
           if(!saved){
             setSaved(true);
