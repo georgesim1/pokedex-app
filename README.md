@@ -1,6 +1,6 @@
-# Getting Started (PROJECT DEF09 SIMAK.G)
+# Getting Started
 
-- Clone this repo
+- Clonez ce
 
   ```
   git clone https://github.com/matheusmhq/pokedex-react-js.git
@@ -8,15 +8,14 @@
   cd pokedex-app
   ```
 
-- Install all dependencies
+- Installer tous les dependencies
 
   ```
    npm install
 
   ```
 
-- Now run **npm run dev**
+- Exécutez maintenant **npm run dev**
 
-- Open your browser at `http://localhost:3000`
 
 
